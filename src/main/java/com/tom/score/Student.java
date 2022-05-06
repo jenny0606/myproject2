@@ -1,7 +1,7 @@
-package com.tom;
+package com.tom.score;
 
 public class Student implements Printable {
-    String name;
+     String name;
     int english;
     int math;
     public Student(String name) { //Constructor

@@ -1,6 +1,6 @@
-package com.tom;
+package com.tom.score;
 
-public class GraduateStudent extends Student  {
+public class GraduateStudent extends Student {
     int thesis;
     public GraduateStudent(String name, int english,
                            int math, int thesis) {
