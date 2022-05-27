@@ -13,6 +13,9 @@ public class MyWin {
         frame.setLocation(300,200);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         JButton button=new JButton("ok");
+        //Anonymous class
+
+
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
