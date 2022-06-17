@@ -19,13 +19,14 @@ public class ScoringFlie {
                Student stu=new Student(name,english,math);
                stu.print();
                line=reader.readLine();
+
            }
 
         }catch(FileNotFoundException e) {
-            System.out.println("檔案失敗");
+            System.out.println("檔案 失敗");
 
         }catch(IOException e){
-            System.out.println("資料失敗");
+            System.out.println("資料 失敗");
         }
         System.out.println("Testing");
     }
